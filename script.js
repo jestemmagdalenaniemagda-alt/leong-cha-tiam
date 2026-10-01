@@ -1,10 +1,17 @@
 const lightbox = document.querySelector('[data-lightbox]');
-const openButton = document.querySelector('[data-lightbox-open]');
+const openButtons = document.querySelectorAll('[data-lightbox-open]');
 const closeButton = document.querySelector('[data-lightbox-close]');
+const lightboxImage = document.querySelector('[data-lightbox-image]');
 
-if (lightbox && openButton) {
-  openButton.addEventListener('click', () => {
-    if (typeof lightbox.showModal === 'function') lightbox.showModal();
+if (lightbox && openButtons.length) {
+  openButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const src = button.dataset.menuSrc;
+      const alt = button.dataset.menuAlt;
+      if (lightboxImage && src) lightboxImage.src = src;
+      if (lightboxImage && alt) lightboxImage.alt = alt;
+      if (typeof lightbox.showModal === 'function') lightbox.showModal();
+    });
   });
 }
 

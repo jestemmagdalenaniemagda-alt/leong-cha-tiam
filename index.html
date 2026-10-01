@@ -75,7 +75,6 @@
     <section class="hero section-frame" aria-labelledby="hero-title">
       <div class="ornament ornament-top" aria-hidden="true"></div>
       <div class="shell hero-inner">
-        <img class="hero-logo" src="logo.png" alt="Leong Cha Tiam restaurant and kopitiam in Kudat, Sabah">
         <p class="eyebrow">Restaurant &amp; Kopitiam · Kudat, Sabah · Since 1993</p>
         <h1 id="hero-title">Restaurant &amp; traditional kopitiam in Kudat.</h1>
         <p class="hero-copy">Local breakfast, noodles, porridge, rice dishes and Chinese-Malaysian kopitiam favourites — served in Kudat since 1993.</p>
@@ -110,13 +109,21 @@
           <a class="text-link" href="menu.pdf" target="_blank" rel="noopener">Open full menu PDF ↗</a>
         </div>
 
-        <div class="menu-card">
-          <button class="menu-preview" type="button" data-lightbox-open aria-label="Open the Leong Cha Tiam menu in a larger view">
-            <img src="menu.png" alt="Leong Cha Tiam restaurant menu in Kudat with food, kopitiam drinks and herbal drinks" loading="lazy">
-            <span class="zoom-hint">Tap to enlarge</span>
-          </button>
+        <div class="menu-pages" aria-label="Leong Cha Tiam menu pages">
+          <div class="menu-card">
+            <button class="menu-preview" type="button" data-lightbox-open data-menu-src="menu-1.png" data-menu-alt="Leong Cha Tiam food menu in Kudat with main dishes, appetizers and extras" aria-label="Open food menu in a larger view">
+              <img src="menu-1.png" alt="Leong Cha Tiam food menu in Kudat with main dishes, appetizers and extras" loading="lazy">
+              <span class="zoom-hint">Tap to enlarge</span>
+            </button>
+          </div>
+          <div class="menu-card">
+            <button class="menu-preview" type="button" data-lightbox-open data-menu-src="menu-2.png" data-menu-alt="Leong Cha Tiam drinks menu in Kudat with kopitiam drinks and herbal drinks" aria-label="Open drinks menu in a larger view">
+              <img src="menu-2.png" alt="Leong Cha Tiam drinks menu in Kudat with kopitiam drinks and herbal drinks" loading="lazy">
+              <span class="zoom-hint">Tap to enlarge</span>
+            </button>
+          </div>
         </div>
-        <p class="menu-note">Breakfast, noodles, rice dishes, porridge, kopitiam drinks and herbal drinks. Prices and availability may change.</p>
+        <p class="menu-note">Main dishes, noodles, porridge, rice, kopitiam drinks and traditional herbal drinks. Prices and availability may change.</p>
       </div>
     </section>
 
@@ -184,7 +191,7 @@
 
   <dialog class="lightbox" data-lightbox aria-label="Leong Cha Tiam menu">
     <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close menu">×</button>
-    <div class="lightbox-scroll"><img src="menu.png" alt="Large view of the Leong Cha Tiam restaurant menu"></div>
+    <div class="lightbox-scroll"><img data-lightbox-image src="menu-1.png" alt="Large view of the Leong Cha Tiam restaurant menu"></div>
   </dialog>
 
   <script src="script.js"></script>
