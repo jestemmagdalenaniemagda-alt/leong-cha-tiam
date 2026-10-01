@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/sitemap.xml
+Sitemap: https://leong-cha-tiam.github.io/sitemap.xml
