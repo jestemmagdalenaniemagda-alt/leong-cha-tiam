@@ -10,12 +10,18 @@
   <link rel="canonical" href="https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/">
 
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Leong Cha Tiam">
   <meta property="og:url" content="https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/">
   <meta property="og:title" content="Leong Cha Tiam | Restaurant & Kopitiam in Kudat, Sabah">
   <meta property="og:description" content="Family-run Kudat restaurant and traditional kopitiam serving breakfast, noodles, rice dishes, porridge and local favourites since 1993.">
   <meta property="og:image" content="https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/logo-stacked.png">
   <meta property="og:locale" content="en_MY">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Leong Cha Tiam | Restaurant & Kopitiam in Kudat, Sabah">
+  <meta name="twitter:description" content="Family-run Kudat restaurant and traditional kopitiam serving breakfast, noodles, rice dishes, porridge and local favourites since 1993.">
+  <meta name="twitter:image" content="https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/logo-stacked.png">
+
+  <link rel="preload" as="image" href="logo.png">
 
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
@@ -26,16 +32,25 @@
     "@type": ["Restaurant", "LocalBusiness"],
     "@id": "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/#restaurant",
     "name": "Leong Cha Tiam",
+    "alternateName": "凉茶店",
     "url": "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/",
     "description": "Family-run restaurant and traditional kopitiam in Kudat, Sabah, serving breakfast, noodles, porridge, rice dishes and Chinese-Malaysian local food since 1993.",
-    "image": "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/logo-stacked.png",
+    "image": [
+      "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/logo-stacked.png",
+      "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/menu-1.png",
+      "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/menu-2.png"
+    ],
     "logo": "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/logo.png",
     "telephone": "+60184744039",
     "priceRange": "RM 1-20",
-    "servesCuisine": ["Malaysian", "Chinese", "Kopitiam"],
+    "servesCuisine": ["Malaysian", "Chinese", "Kopitiam", "Local food"],
     "foundingDate": "1993",
     "slogan": "Serving Kudat since 1993.",
-    "menu": "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/menu.pdf",
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=Leong+Cha+Tiam+Kudat+Sabah",
+    "areaServed": {
+      "@type": "City",
+      "name": "Kudat"
+    },
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "972(3)- Lot 8 & GF Block B, Plaza Tg. Kapor",
@@ -50,7 +65,70 @@
       "opens": "06:30",
       "closes": "14:00"
     }],
-    "sameAs": ["https://www.facebook.com/2011523502226618/"]
+    "sameAs": ["https://www.facebook.com/2011523502226618/"],
+    "menu": "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/menu.pdf",
+    "hasMenu": {
+      "@type": "Menu",
+      "name": "Leong Cha Tiam Menu",
+      "url": "https://jestemmagdalenaniemagda-alt.github.io/leong-cha-tiam/menu.pdf",
+      "hasMenuSection": [
+        {
+          "@type": "MenuSection",
+          "name": "Main dishes",
+          "hasMenuItem": [
+            {"@type":"MenuItem","name":"Kon Lau Mee","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Mee Soup","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"ABC Soup","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"ABC Soup with Rice","offers":{"@type":"Offer","price":"12","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Century Egg Porridge","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Salted Egg Porridge","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Chicken Rice","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}}
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Appetizers and extras",
+          "hasMenuItem": [
+            {"@type":"MenuItem","name":"Toast Kaya Butter","offers":{"@type":"Offer","price":"3","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Crispy Wantan","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Fried Fu Pi","offers":{"@type":"Offer","price":"10","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Extra Rice","offers":{"@type":"Offer","price":"3","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Kon Lau Mee Kosong","offers":{"@type":"Offer","price":"5","priceCurrency":"MYR"}},
+            {"@type":"MenuItem","name":"Fried Egg","offers":{"@type":"Offer","price":"3","priceCurrency":"MYR"}}
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Drinks",
+          "hasMenuItem": [
+            {"@type":"MenuItem","name":"Kopi O/C"},
+            {"@type":"MenuItem","name":"Teh O/C"},
+            {"@type":"MenuItem","name":"Milo O/C"},
+            {"@type":"MenuItem","name":"Nescafe O/C"},
+            {"@type":"MenuItem","name":"Nestum O/C"},
+            {"@type":"MenuItem","name":"Lemon Teh"},
+            {"@type":"MenuItem","name":"Kit Chai"},
+            {"@type":"MenuItem","name":"Chinese Teh"}
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Herbal drinks",
+          "hasMenuItem": [
+            {"@type":"MenuItem","name":"Ha Foh Cao"},
+            {"@type":"MenuItem","name":"Pak Muk Ngi"},
+            {"@type":"MenuItem","name":"Lo Han Kor"},
+            {"@type":"MenuItem","name":"Air Kundur"},
+            {"@type":"MenuItem","name":"Kai Kut Cao"},
+            {"@type":"MenuItem","name":"Wong Lau Kit"},
+            {"@type":"MenuItem","name":"Barli"},
+            {"@type":"MenuItem","name":"Cin Cau"},
+            {"@type":"MenuItem","name":"Fresh Soy Milk"},
+            {"@type":"MenuItem","name":"Wheat Grass"}
+          ]
+        }
+      ]
+    }
   }
   </script>
 </head>
@@ -60,7 +138,7 @@
   <header class="site-header" id="top">
     <div class="shell header-inner">
       <a class="header-logo" href="#top" aria-label="Leong Cha Tiam home">
-        <img src="logo.png" alt="Leong Cha Tiam, since 1993">
+        <img src="logo.png" alt="Leong Cha Tiam, restaurant and kopitiam in Kudat since 1993" width="1746" height="525">
       </a>
       <nav class="nav" aria-label="Main navigation">
         <a href="#about">About</a>
@@ -112,18 +190,28 @@
         <div class="menu-pages" aria-label="Leong Cha Tiam menu pages">
           <div class="menu-card">
             <button class="menu-preview" type="button" data-lightbox-open data-menu-src="menu-1.png" data-menu-alt="Leong Cha Tiam food menu in Kudat with main dishes, appetizers and extras" aria-label="Open food menu in a larger view">
-              <img src="menu-1.png" alt="Leong Cha Tiam food menu in Kudat with main dishes, appetizers and extras" loading="lazy">
+              <picture>
+                <source srcset="menu-1.webp" type="image/webp">
+                <img src="menu-1.png" alt="Leong Cha Tiam food menu in Kudat with main dishes, appetizers and extras" width="2000" height="1414" loading="lazy" decoding="async">
+              </picture>
               <span class="zoom-hint">Tap to enlarge</span>
             </button>
           </div>
           <div class="menu-card">
             <button class="menu-preview" type="button" data-lightbox-open data-menu-src="menu-2.png" data-menu-alt="Leong Cha Tiam drinks menu in Kudat with kopitiam drinks and herbal drinks" aria-label="Open drinks menu in a larger view">
-              <img src="menu-2.png" alt="Leong Cha Tiam drinks menu in Kudat with kopitiam drinks and herbal drinks" loading="lazy">
+              <picture>
+                <source srcset="menu-2.webp" type="image/webp">
+                <img src="menu-2.png" alt="Leong Cha Tiam drinks menu in Kudat with kopitiam drinks and herbal drinks" width="2000" height="1414" loading="lazy" decoding="async">
+              </picture>
               <span class="zoom-hint">Tap to enlarge</span>
             </button>
           </div>
         </div>
         <p class="menu-note">Main dishes, noodles, porridge, rice, kopitiam drinks and traditional herbal drinks. Prices and availability may change.</p>
+        <div class="menu-index" aria-label="Menu highlights">
+          <p><strong>Main dishes:</strong> Kon Lau Mee, Mee Soup, ABC Soup, ABC Soup with Rice, Century Egg Porridge, Salted Egg Porridge and Chicken Rice.</p>
+          <p><strong>Drinks &amp; extras:</strong> kaya butter toast, crispy wantan, fried fu pi, kopi, teh, Milo, Chinese tea, soy milk and traditional herbal drinks.</p>
+        </div>
       </div>
     </section>
 
@@ -178,7 +266,7 @@
 
   <footer class="footer">
     <div class="shell footer-inner">
-      <img src="logo-stacked.png" alt="Leong Cha Tiam">
+      <img src="logo-stacked.png" alt="Leong Cha Tiam restaurant and kopitiam in Kudat" width="1739" height="1336" loading="lazy" decoding="async">
       <p>Restaurant &amp; traditional kopitiam in Kudat, Sabah · Since 1993.</p>
       <p class="footer-links"><a href="#menu">Menu</a><span>·</span><a href="#visit">Visit</a><span>·</span><a href="https://www.facebook.com/2011523502226618/" target="_blank" rel="noopener">Facebook</a></p>
     </div>
